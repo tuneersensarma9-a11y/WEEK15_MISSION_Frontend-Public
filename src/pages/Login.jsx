@@ -22,7 +22,7 @@ function Login() {
     e.preventDefault();
 
     const res = await fetch(
-      "http://localhost:5000/api/auth/login",
+      "https://week15-mission-backend-public.onrender.com/",
       {
         method: "POST",
         headers: {
