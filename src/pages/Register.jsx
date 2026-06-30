@@ -23,8 +23,7 @@ function Register() {
     e.preventDefault();
 
     const res = await fetch(
-      "const res = await fetch(
-  "https://week15-mission-backend-public.onrender.com/api/auth/register",",
+  "https://week15-mission-backend-public.onrender.com/api/auth/register",
       {
         method: "POST",
         headers: {
