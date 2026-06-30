@@ -23,7 +23,7 @@ function Register() {
     e.preventDefault();
 
     const res = await fetch(
-      "http://localhost:5000/api/auth/register",
+      "https://week15-mission-backend-public.onrender.com/",
       {
         method: "POST",
         headers: {
